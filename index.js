@@ -48,7 +48,9 @@ function renderCat(){
     memeModal.style.display = 'flex'
 }
 
-//To return an object array're filter , if only one return directly . if more than one it will return random by the filted array.length , e.g(if have 2 meme are filted , the array.length will be 2) , so that assign the length to Math.random , it will only random 0 or 1 then return catsArray[randomNumber]  
+/*To return an object array're filter , if only one return directly . if more than one it will return random by the filted array.length ,
+ e.g(if have 2 meme are filted , the array.length will be 2) , so that assign the length to Math.random ,
+ it will only random 0 or 1 then return catsArray[randomNumber]  */
 function getSingleCatObject(){
     const catsArray = getMatchingCatsArray()
     
